@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>街头摄影 | 胖电塔与街头摄影</title>
+
+  
+  <meta name="author" content="胖电塔与街头摄影">
+  
+
+  
+  <meta name="description" content="胖电塔与街头摄影">
+  
+
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  
+
+  <meta property="og:site_name" content="街头摄影"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="街头摄影" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+</head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">街头摄影</a>
+    </h1>
+    <p class="site-description">胖电塔与街头摄影</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/2017/03/11/zhihu/"><span>zhihu</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2017/03/11/zhihu/" rel="bookmark">
+        <time class="entry-date published" datetime="2017-03-11T11:45:00.000Z">
+          2017-03-11
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <blockquote>
+<p>Vue.js是我所喜爱的，知乎也是我喜爱的，突发奇想使用vue做了一个知乎日报</p>
+</blockquote>
+<h2 id="项目地址："><a href="#项目地址：" class="headerlink" title="项目地址："></a>项目地址：</h2><p><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js" target="_blank" rel="external">Github地址</a><br><a href="http://lovestreet.leanapp.cn/zhihu/#/" target="_blank" rel="external">在线预览demo</a></p>
+<h2 id="设计："><a href="#设计：" class="headerlink" title="设计："></a>设计：</h2><p>1.设计上没有按照知乎日报客户端的交互及UI设计来做，本渣亲自捏了一个，颜色以黑白灰为主，本来想加入知乎的蓝色，但是本渣设计功力实在太差，故舍弃掉了蓝色，只采用黑白灰三色。</p>
+<p>2.日报条目采用无边界设计，只添加淡灰色的分割线来区分。</p>
+<p>3.整个网页是一个单页应用(Single Page Web App)，所有的数据使用vuex来进行管理，在store里统一管理。</p>
+<h2 id="预览："><a href="#预览：" class="headerlink" title="预览："></a>预览：</h2><p><img src="http://upload-images.jianshu.io/upload_images/3261015-36f5995eca60c77c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="预览图片"></p>
+<h2 id="涉及到的技术："><a href="#涉及到的技术：" class="headerlink" title="涉及到的技术："></a>涉及到的技术：</h2><ol>
+<li><p>该项目使用<a href="https://github.com/vuejs/vue-cli" target="_blank" rel="external">vue-cli</a>构建、打包，配合vue全家桶（<a href="https://github.com/vuejs/vue" target="_blank" rel="external">vue</a>、<a href="https://github.com/vuejs/vuex" target="_blank" rel="external">vuex</a>、<a href="https://github.com/vuejs/vue-router" target="_blank" rel="external">vue-router</a>）进行编码、开发</p>
+</li>
+<li><p>基础样式使用basscss，basscss对层叠样式表的设计方式简练、高效、可复用性强</p>
+</li>
+<li><p>网络请求使用<a href="https://github.com/mzabriskie/axios" target="_blank" rel="external">axios</a></p>
+</li>
+<li><p>后台使用Node.js</p>
+</li>
+</ol>
+<h2 id="vuex架构："><a href="#vuex架构：" class="headerlink" title="vuex架构："></a><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js" target="_blank" rel="external">vuex架构</a>：</h2><ol>
+<li>将getters、mutations、actions变量名设定一个命名空间，否则store写的大了，命名肯定会乱，示例：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// actions types</div><div class="line">export const FECTH_NEWS_LATEST = &apos;FECTH_NEWS_LATEST&apos;                // 最新消息列表</div><div class="line">// mutstions types</div><div class="line">export const TOGGLE_NEWS_LATEST = &apos;TOGGLE_NEWS_LATEST&apos;              // 最新消息列表</div><div class="line">//  getters types</div><div class="line">export const DONE_NEWS_LIST_ROOT = &apos;DONE_NEWS_LIST_ROOT&apos;            // 最新消息列表梗</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>命名具有意义，并且写好注释。</p>
+<ol>
+<li><p>store分模块<br>其实不用分模块，但还是分一下吧，为后续开发着想。</p>
+</li>
+<li><p>使用getters将状态（state）、数据（data）发往页面模版（template）上，发数据有两三种方式，根据自己习惯来吧，我是这样做的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[types.DONE_NEWS_LIST_ROOT]: state =&gt; &#123;</div><div class="line">        return state.NewsListRoot</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">computed: &#123;</div><div class="line">		...mapGetters([&apos;DONE_NEWS_LATEST&apos;, &apos;DONE_LOADING_ONE&apos;, &apos;DONE_LOADING_TWO&apos;, &apos;DONE_NEWS_LIST_ROOT&apos;])</div><div class="line">	&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;div v-for=&quot;list in DONE_NEWS_LIST_ROOT&quot;&gt;</div><div class="line">		&lt;!-- ===使用v-for来循环渲染数据=== --&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure>
+<ol>
+<li><p>mutations与actions：<br>a、mutations是用来处理同步的事情的，比如给state中的变量赋值；<br>b、actions是用来处理异步的事情，比如网络请求；<br>c、但是actions也是可以做同步的事情的，但最好按照vuex的建议来做：在mutations中处理同步操作</p>
+</li>
+<li><p>具体怎么处理的看我的github，记得点点赞啥的：<br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/tree/master/src/vuex" target="_blank" rel="external">vuex地址</a><br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js" target="_blank" rel="external">store地址</a></p>
+</li>
+</ol>
+<h2 id="遇到的难题："><a href="#遇到的难题：" class="headerlink" title="遇到的难题："></a>遇到的难题：</h2><ol>
+<li>跨域。跨域是前端一个老生常谈的问题，我使用node做了一下中转，示例代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">router.get(&apos;/news/latest&apos;, function (req, res, next) &#123;</div><div class="line">    var options = &#123;</div><div class="line">        method: &quot;GET&quot;,</div><div class="line">        url: &quot;http://news-at.zhihu.com/api/4/news/latest&quot;</div><div class="line">    &#125;;</div><div class="line">    request(options, function (error, response, body) &#123;</div><div class="line">        if (error) throw new Error(error);</div><div class="line">        res.json(JSON.parse(body))</div><div class="line">    &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>2.日报详情的渲染。日报详细内容知乎是一个html格式的字符串，而数据的请求及渲染是异步的，正常情况下来说，浏览器是无法解析成功的，但是vue提供的一个v-html方法，可以搞定，示例代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div v-html=&quot;DONE_NEWS_DETAIL.body&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure></p>
+<p>其中DONE_NEWS_DETAIL是数据</p>
+<h2 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h2><p>大家多多交流，互相学习啊，写的不好的地方情指正哦！</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+
+<nav class="pagination">
+  
+  
+</nav>
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2017 胖电塔与街头摄影
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>
