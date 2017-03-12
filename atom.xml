@@ -1,22 +1,46 @@
-<!DOCTYPE html><html lang="cn" prefix="og: http://ogp.me/ns#"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>zhihu · 街头摄影</title><meta name="description" content="zhihu - 胖电塔与街头摄影"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.ico"><link rel="stylesheet" href="//at.alicdn.com/t/font_1472710214_6648843.css"><link rel="stylesheet" href="//raw.githack.com/xwartz/hexo-theme-nuna/next/source/style/main.css?v=1.0.3"></head><body class="pupa"><div class="loading-bar"></div><main><div class="post post"><article itemscope itemtype="http://schema.org/Article" class="hentry"><div class="container"><div class="entry-header"><h1 class="entry-title">zhihu</h1><div class="entry-description"></div><div class="entry-meta"><time itemprop="datePublished" datetime="Saturday, March 11th 2017, 7:45:00 pm" class="updated">Mar 11, 2017</time><em class="post-count">1,494 words</em></div></div><div itemprop="articleBody" class="entry-content"><blockquote>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>街头摄影</title>
+  <subtitle>胖电塔与街头摄影</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-03-11T11:47:08.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>胖电塔与街头摄影</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>zhihu</title>
+    <link href="http://yoursite.com/2017/03/11/zhihu/"/>
+    <id>http://yoursite.com/2017/03/11/zhihu/</id>
+    <published>2017-03-11T11:45:00.000Z</published>
+    <updated>2017-03-11T11:47:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
 <p>Vue.js是我所喜爱的，知乎也是我喜爱的，突发奇想使用vue做了一个知乎日报</p>
 </blockquote>
-<h2 id="项目地址："><a href="#项目地址：" class="headerlink" title="项目地址："></a>项目地址：</h2><p><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js">Github地址</a><br><a href="http://lovestreet.leanapp.cn/zhihu/#/">在线预览demo</a></p>
+<h2 id="项目地址："><a href="#项目地址：" class="headerlink" title="项目地址："></a>项目地址：</h2><p><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js" target="_blank" rel="external">Github地址</a><br><a href="http://lovestreet.leanapp.cn/zhihu/#/" target="_blank" rel="external">在线预览demo</a></p>
 <h2 id="设计："><a href="#设计：" class="headerlink" title="设计："></a>设计：</h2><p>1.设计上没有按照知乎日报客户端的交互及UI设计来做，本渣亲自捏了一个，颜色以黑白灰为主，本来想加入知乎的蓝色，但是本渣设计功力实在太差，故舍弃掉了蓝色，只采用黑白灰三色。</p>
 <p>2.日报条目采用无边界设计，只添加淡灰色的分割线来区分。</p>
 <p>3.整个网页是一个单页应用(Single Page Web App)，所有的数据使用vuex来进行管理，在store里统一管理。</p>
 <h2 id="预览："><a href="#预览：" class="headerlink" title="预览："></a>预览：</h2><p><img src="http://upload-images.jianshu.io/upload_images/3261015-36f5995eca60c77c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="预览图片"></p>
 <h2 id="涉及到的技术："><a href="#涉及到的技术：" class="headerlink" title="涉及到的技术："></a>涉及到的技术：</h2><ol>
-<li><p>该项目使用<a href="https://github.com/vuejs/vue-cli">vue-cli</a>构建、打包，配合vue全家桶（<a href="https://github.com/vuejs/vue">vue</a>、<a href="https://github.com/vuejs/vuex">vuex</a>、<a href="https://github.com/vuejs/vue-router">vue-router</a>）进行编码、开发</p>
+<li><p>该项目使用<a href="https://github.com/vuejs/vue-cli" target="_blank" rel="external">vue-cli</a>构建、打包，配合vue全家桶（<a href="https://github.com/vuejs/vue" target="_blank" rel="external">vue</a>、<a href="https://github.com/vuejs/vuex" target="_blank" rel="external">vuex</a>、<a href="https://github.com/vuejs/vue-router" target="_blank" rel="external">vue-router</a>）进行编码、开发</p>
 </li>
 <li><p>基础样式使用basscss，basscss对层叠样式表的设计方式简练、高效、可复用性强</p>
 </li>
-<li><p>网络请求使用<a href="https://github.com/mzabriskie/axios">axios</a></p>
+<li><p>网络请求使用<a href="https://github.com/mzabriskie/axios" target="_blank" rel="external">axios</a></p>
 </li>
 <li><p>后台使用Node.js</p>
 </li>
 </ol>
-<h2 id="vuex架构："><a href="#vuex架构：" class="headerlink" title="vuex架构："></a><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js">vuex架构</a>：</h2><ol>
+<h2 id="vuex架构："><a href="#vuex架构：" class="headerlink" title="vuex架构："></a><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js" target="_blank" rel="external">vuex架构</a>：</h2><ol>
 <li>将getters、mutations、actions变量名设定一个命名空间，否则store写的大了，命名肯定会乱，示例：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// actions types</div><div class="line">export const FECTH_NEWS_LATEST = &apos;FECTH_NEWS_LATEST&apos;                // 最新消息列表</div><div class="line">// mutstions types</div><div class="line">export const TOGGLE_NEWS_LATEST = &apos;TOGGLE_NEWS_LATEST&apos;              // 最新消息列表</div><div class="line">//  getters types</div><div class="line">export const DONE_NEWS_LIST_ROOT = &apos;DONE_NEWS_LIST_ROOT&apos;            // 最新消息列表梗</div></pre></td></tr></table></figure>
 </li>
 </ol>
@@ -33,7 +57,7 @@
 <ol>
 <li><p>mutations与actions：<br>a、mutations是用来处理同步的事情的，比如给state中的变量赋值；<br>b、actions是用来处理异步的事情，比如网络请求；<br>c、但是actions也是可以做同步的事情的，但最好按照vuex的建议来做：在mutations中处理同步操作</p>
 </li>
-<li><p>具体怎么处理的看我的github，记得点点赞啥的：<br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/tree/master/src/vuex">vuex地址</a><br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js">store地址</a></p>
+<li><p>具体怎么处理的看我的github，记得点点赞啥的：<br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/tree/master/src/vuex" target="_blank" rel="external">vuex地址</a><br><a href="https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js/blob/master/src/vuex/modules/zhihudata.js" target="_blank" rel="external">store地址</a></p>
 </li>
 </ol>
 <h2 id="遇到的难题："><a href="#遇到的难题：" class="headerlink" title="遇到的难题："></a>遇到的难题：</h2><ol>
@@ -43,22 +67,18 @@
 <p>2.日报详情的渲染。日报详细内容知乎是一个html格式的字符串，而数据的请求及渲染是异步的，正常情况下来说，浏览器是无法解析成功的，但是vue提供的一个v-html方法，可以搞定，示例代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div v-html=&quot;DONE_NEWS_DETAIL.body&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure></p>
 <p>其中DONE_NEWS_DETAIL是数据</p>
 <h2 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h2><p>大家多多交流，互相学习啊，写的不好的地方情指正哦！</p>
-</div><div class="entry-extra"><div class="entry-tags"></div></div></div></article></div></main><footer><div class="copyright container"><p>© Copyright 2017 by <a href="http://yoursite.com">胖电塔与街头摄影</a>.</p></div></footer><script async src="//cdn.bootcss.com/mathjax/2.7.0-beta.0/MathJax.js"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-69822347-1",'auto');
-ga('set', 'appName',"街头摄影");
-ga('send','pageview');</script><script>(function () { var sid =500303098;cid =500303108;var hm = document.createElement('script');
-hm.src = 'http://pingjs.qq.com/h5/stats.js';
-hm.setAttribute('name', 'MTAH5'); hm.setAttribute('sid', sid); hm.setAttribute('cid', cid);
-var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);
-}())</script><script>var _vds = _vds || [];
-window._vds = _vds;
-(function(){
-  ;_vds.push(['setAccountId',"90b580e047dd0007"  ]);
-  (function() {
-      var vds = document.createElement('script');
-      vds.type='text/javascript';
-      vds.async = true;
-      vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(vds, s);
-  })();
-})();</script><script async src="//raw.githack.com/Easyfood/pageAccelerator/master/dist/page-accelerator.min.js"></script><script async src="/script/loading.js"></script><script async src="/script/photo.js"></script></body></html>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Vue.js是我所喜爱的，知乎也是我喜爱的，突发奇想使用vue做了一个知乎日报&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;项目地址：&quot;&gt;&lt;a href=&quot;#项目地址：&quot; class=&quot;headerlink&quot; title=&quot;项目地址：&quot;&gt;&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
