@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>胖电塔与街头摄影</title>
+  <subtitle>胖电塔与街头摄影</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-03-18T11:57:11.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>胖电塔与街头摄影</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>行走在上海地铁</title>
+    <link href="http://yoursite.com/2017/03/16/%E8%A1%8C%E8%B5%B0%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81/"/>
+    <id>http://yoursite.com/2017/03/16/行走在上海地铁/</id>
+    <published>2017-03-16T11:40:35.000Z</published>
+    <updated>2017-03-18T11:57:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>一个人最好的陪伴是什么？当然是自己。</em></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3261015-7d36f52fd0f2eaba.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"><br><a id="more"></a></p>
+<blockquote>
+<p>人最多的地方是地铁，最寂寞的人是地铁里的乘客。</p>
+<p>—-作者按</p>
+</blockquote>
+<p><em>如果说人最好的陪伴不能是自己，那会是什么呢？当然就是自己的影子</em></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3261015-35f9a0821d57b6df.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"></p>
+<p><em>地铁里有很多人，但是与他人相对的始终是背影</em><br><img src="http://upload-images.jianshu.io/upload_images/3261015-186c1c619ced7b4c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3261015-452c7e9a496eb706.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"></p>
+<p><em>每当列车经过，我都觉得马上就可以回家，但是到来的这趟车，往往不是自己等候的那一班。</em><br><img src="http://upload-images.jianshu.io/upload_images/3261015-c4fbf99eb49d5598.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"></p>
+<p><em>有的时候，我想选择逃避地铁，但是地铁外面是同样寂寞的高楼。</em><br><img src="http://upload-images.jianshu.io/upload_images/3261015-ba4caeecf4838beb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50" alt="寂寞地铁"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;一个人最好的陪伴是什么？当然是自己。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/3261015-7d36f52fd0f2eaba.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50&quot; alt=&quot;寂寞地铁&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="street" scheme="http://yoursite.com/categories/street/"/>
+    
+    
+      <category term="street" scheme="http://yoursite.com/tags/street/"/>
+    
+  </entry>
+  
+</feed>
