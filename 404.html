@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>404 NOT FOUND</title>
+  <style type="text/css">
+    h1 {
+      font-size: 80px;
+      color: grey;
+      font-weight: 100;
+      text-align: center;
+      margin-top: 100px;
+    }
+    .back-to-home {
+      background-color: #9E9E9E;
+      border: none;
+      color: white;
+      width: 100%;
+      padding: 10px 0;
+      font-size: 12px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .back-to-home:hover {
+      background-color: #BDBDBD;
+      transition: all 0.2s ease;
+    }
+    .back-to-home:focus {
+      background-color: #BDBDBD;
+      transition: all 0.2s ease;
+    }
+    .back-to-home:active {
+      background-color: #757575;
+      transition: all 0.2s ease;
+    }
+@media screen and (min-width: 640px) {
+  body {
+    width: 640px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+  </style>
+  <body>
+     <h1>404 NOT FOUND</h1>
+     <button class="back-to-home" id="back">回到首页</button>
+     <script type="text/javascript">
+       var back = document.getElementById('back');
+       back.onclick = function () {
+        window.location.href = "/"
+       }
+     </script>
+  </body>
+</html>
